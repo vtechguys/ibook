@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <title>ibook</title>
+	<style>
+		.table_lang td{border-collapse: collapse;border-width: 0px;padding:10px;}
+		.active_lang{color:black;}
+	</style>
+</head>
+<body style="background:linear-gradient(to bottom,#fcfcfd 20%,#eaedf4 40%,#e7eaf3 60%,#dde1ed 80%,#d6dbea 100%)">
+	
+	   
+<div class="container-fluid" style="background-color:rgb(59,89,152);">
+				<div class="container" style="font-weight:100;">	
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<h1 style="color:white;font-family:arial;font-size:50px;padding:10px 0px 0px 10px;">ibook</h1>
+							</div>
+		<div style="margin-top:20px;padding-top:5px;" class="col-lg-6 col-md-6 col-sm-6 col-xs-8">	
+				<form action="" method="get" class ="form-inline">
+				<div class="form-group ">
+				
+					<!--for does when you click on label the coresponding input gets activated-->
+			<input type="email" class="form-control" placeholder="Login Id" id="email_for_label_id"/>
+				</div>
+				<div class="form-group">
+				<!--for does when you click on label the coresponding input gets activated-->
+				<input type="password" class="form-control" placeholder="Password" id="pswd"/>
+				</div>
+
+				<div class="form-group">
+				
+					<!--for submit btn no label req-->
+					<input type="submit" value="Sign In"  id="submit_frm" class="btn btn-primary"/>
+				</div>
+			
+			</form>	
+		</div>
+		</div>
+	</div></div>
+		
+	
+	
+	<section class="container" >
+			<div style="width:60%;float:left;" class="col-xs-0 col-sm-5
+													   col-md-6  col-lg-6 ">
+				<h3 style="color:darkblue;padding:10px;"><b>World is getting connected and is sharing...</b></h3>
+		<img src="mfacebook.png" style="max-height:195px;max-width:537px;"/>
+		
+	</div>
+			<div style="width:40%;float:left;" class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+				<h1 style="font-size:40px;color:black;"><b>Crearte an Account </b></h1>
+		
+		<h3>World Is Here Where Are You! <br/>Join Us Today!</h3><br/>
+	<form action="" method="get" class ="form-horizantal">
+			<div class="form-group  ">
+				
+					<!--for does when you click on label the coresponding input gets activated-->
+					<div class="col-xs-6">
+						<input type="text" 
+							   name="frst_name"class="form-control" placeholder="First Name"  id="frst_name"/>
+					</div>
+	
+					<!--for does when you click on label the coresponding input gets activated-->
+					<div class=" col-xs-offset-6">
+						<input type="text" class="form-control" placeholder="Surname" name="last_name" id="last_name"/>
+					</div>
+			</div>	
+			<div class="form-group " style="">
+				
+					<!--for does when you click on label the coresponding input gets activated-->
+					<div class="">
+						<input type="email"   name="email_for_label_id" placeholder="Email" class="form-control" id="email_for_label_id"/>
+					</div>
+			</div>
+			
+				<div class="form-group">	
+						<!--for does when you click on label the coresponding input gets activated no class in file upload-->
+					<div class="">
+						<input type="password"  class="form-control" id="pswd" name="pswd" placeholder="Password"/>
+					</div>
+				</div>
+				<div class="form-group ">
+				<label for="dob"  class="control-label">Birthday:</label>
+					<!--for does when you click on label the coresponding input gets activated-->
+					<div class="">
+						<input style="width:200px;" type="date" name="dob" id="dob" class="form-control" id="pswd"/>
+						<span style="font-size:12px;"><a href="#">Why do I need to provide<br/>my Date of Birth?</a></span>
+					</div>
+					
+					
+					
+				</div>
+		
+		
+					<div class="form-group ">
+					<!--for does when you click on label the coresponding input gets activated-->
+					<div style="font-size:18px;">
+						<div class="col-xs-5 "><input type ="radio" name="gender" value="male" >Male</div>
+						<div class="col-xs-5 "><input type ="radio" name="gender" value="female" >Female</div>
+						
+					</div>
+				</div>
+		<br/>
+		<br/>
+		<p style="font-size:12px;">
+				By clicking Create an account, you agree to our Terms and <br/>
+				confirm that you have read our Data Policy,including our Cookie <br/>
+				Use Policy. You may receive SMS message notifications from <br/>
+				Facebook and can opt out at any time.
+			</p>
+				<div align="center" class="form-group ">
+				<!--for submit btn no label req
+
+								fixing sumbit button to lineup with everything else
+										by col-sm-push-2 aslabel occupy 2 and leveling up with inputs space/box
+
+						-->
+				
+					<button type="button" class="btn btn-success"><span style="font-size:20px;">Create an Account</span></button>
+				</div>
+			
+			</form>	
+		</div>
+		</section>
+
+	
+<div class="container-fluid" style="background:white;">
+	<div class="container">
+		<table class="table_lang">
+		<tr>
+			<td ><a href="#" class="active_lang" >English(UK)</a></td>
+			<td><a href="#"  >French</a></td>	
+			<td><a href="#"  >Spanish</a></td>	
+			<td><a href="#"  >Hindi</a></td>
+		</tr>
+		</table>
+	</div>
+	<hr style="padding:0px; margin:0px:color:black;background:black;height:1px;width:95%;"/>
+<div  style="clear:both" class="container ">
+
+	<div class="row">
+	<table class="table">
+	<tr >
+	<td 	style="border-width:0px;" ><a href="#">Sign Up</a></td>		<td style="border-width:0px;"><a href="#">LogIn</a></td>	   <td	style="border-width:0px;"><a href="#">Messenger</a></td>	
+	<td	style="border-width:0px;"><a href="#">ibook lite</a></td>		<td	style="border-width:0px;"><a href="#">Mobile</a></td>  	<td	style="border-width:0px;"><a href="#">Find Friend</a></td>	
+	<td	style="border-width:0px;"><a href="#">People</a></td>	    	<td	style="border-width:0px;"><a href="#">Pages</a></td>	      <td	style="border-width:0px;"><a href="#">Place</a></td>	
+	<td	style="border-width:0px;"><a href="#">Game</a></td>		  <td	style="border-width:0px;"><a href="#">Locations</a></td>	
+	</tr>
+	<tr >
+	<td	style="border-width:0px;"><a href="#">Celebrities</a></td>		<td	style="border-width:0px;"><a href="#">Marketplace</a></td>	<td	style="border-width:0px;"><a href="#">Groups</a></td>	
+	<td	style="border-width:0px;"><a href="#">Recipies</a></td>	    	<td	style="border-width:0px;"><a href="#">Moments</a></td>	      <td	style="border-width:0px;"><a href="#">Instagram</a></td>	
+	<td	style="border-width:0px;"><a href="#">About</a></td>		         <td	style="border-width:0px;"><a href="#">Create Advert</a></td>	<td	style="border-width:0px;"><a href="#">Create Page</a></td>	
+	<td	style="border-width:0px;"><a href="#">Developers</a></td>		 <td	style="border-width:0px;"><a href="#">Career</a></td>	
+	</tr>
+	<tr >
+   	<td	style="border-width:0px;"><a href="#">Privacy</a></td>		<td	style="border-width:0px;"><a href="#">Cookies</a></td>	<td	style="border-width:0px;"><a href="#">AdChoices</a></td>	
+	<td	style="border-width:0px;"><a href="#">Terms</a></td>		   <td	style="border-width:0px;"><a href="#">Help</a></td>	
+	</tr>
+	</table>
+	</div>
+</div>	
+	</div>
+	
+
+<script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+
+	
+	
+</body>
+</html>
